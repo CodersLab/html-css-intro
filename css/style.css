@@ -1,0 +1,167 @@
+/* STYLE OGÓLNE */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  color: #2a3030;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.button {
+  padding: 15px 35px;
+  box-shadow: 0 4px 0 #e0e0e0;
+  border-radius: 4px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #2a3030;
+  background-color: #fff;
+  font-weight: 700;
+}
+
+.button-price {
+  font-size: 20px;
+  margin-right: 8px;
+}
+
+h2 {
+  font-size: 38px;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 21px;
+  line-height: 28px;
+  font-weight: 300;
+}
+
+/* SEKCJA 1 - WELCOME */
+.welcome {
+  background-color: #ffcc33;
+}
+
+.welcome-title {
+  font-size: 70px;
+  margin-bottom: 10px;
+}
+
+.welcome-title span {
+  font-weight: 300;
+}
+
+.welcome-subtitle {
+  font-weight: 30px;
+  margin-bottom: 20px;
+}
+
+.welcome-text {
+  margin-bottom: 40px;
+}
+
+.welcome-image {
+  margin-top: 40px;
+}
+
+/* SEKCJA 2 - ABOUT */
+.about-text {
+  margin-top: 60px;
+}
+
+.about-link {
+  color: #ffcc33;
+  text-decoration: none;
+}
+
+/* SEKCJA 3 - PRODUCT */
+.product {
+  display: flex;
+}
+
+.product-first-column {
+  background-color: #63d0ee;
+  width: 50%;
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-second-column {
+  width: 50%;
+  background-color: #ffcc33;
+  padding: 60px;
+}
+
+.product-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.product-list {
+  margin-bottom: 40px;
+  line-height: 24px;
+}
+
+/* SEKCJA 4 - REQUIREMENTS */
+.requirements {
+  background-color: #e1e4e4;
+}
+
+.requirements-image {
+  width: 200px;
+  height: 200px;
+  margin-top: 60px;
+}
+
+/* SEKCJA 5 - FEATURES */
+.features-columns {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.features-column {
+  width: 180px;
+}
+
+.features-column-image {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 5px solid #ffcc33;
+  margin-bottom: 15px;
+}
+
+.features-column-title {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+/* SEKCJA 6 - FOOTER */
+.footer {
+  background-color: #2a3030;
+  color: #fff;
+}
+
+.footer-text {
+  margin-bottom: 25px;
+}
+
+.footer-icons {
+  width: 150px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-icon {
+  width: 25px;
+}
