@@ -117,8 +117,6 @@ h3 {
 }
 
 .requirements-image {
-  width: 200px;
-  height: 200px;
   margin-top: 60px;
 }
 
@@ -134,8 +132,6 @@ h3 {
 }
 
 .features-column-image {
-  width: 180px;
-  height: 180px;
   border-radius: 50%;
   border: 5px solid #ffcc33;
   margin-bottom: 15px;
@@ -161,8 +157,4 @@ h3 {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-}
-
-.footer-icon {
-  width: 25px;
 }
